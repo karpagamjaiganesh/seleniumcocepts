@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automationSuite" duration-ms="64778" started-at="2020-12-17T01:43:43Z" finished-at="2020-12-17T01:44:48Z">
+    <groups>
+    </groups>
+    <test name="TC002_Test_Annotation_Priority" duration-ms="64201" started-at="2020-12-17T01:43:43Z" finished-at="2020-12-17T01:44:47Z">
+      <class name="testngconcepts.TC002_Test_Annotation_Priority">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="setup" is-config="true" duration-ms="47369" started-at="2020-12-17T01:43:43Z" finished-at="2020-12-17T01:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUpLink()[pri:1, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="signUpLink" duration-ms="1347" started-at="2020-12-17T01:44:30Z" finished-at="2020-12-17T01:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="teardown" is-config="true" duration-ms="1388" started-at="2020-12-17T01:44:31Z" finished-at="2020-12-17T01:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="setup" is-config="true" duration-ms="11902" started-at="2020-12-17T01:44:33Z" finished-at="2020-12-17T01:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:2, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="verifyTitle" duration-ms="141" started-at="2020-12-17T01:44:45Z" finished-at="2020-12-17T01:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngconcepts.TC002_Test_Annotation_Priority@780cb77]" name="teardown" is-config="true" duration-ms="2006" started-at="2020-12-17T01:44:45Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngconcepts.TC002_Test_Annotation_Priority -->
+    </test> <!-- TC002_Test_Annotation_Priority -->
+    <test name="TC003_browserOpening" duration-ms="49" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+      <class name="testngconcepts.TC003_browserOpening">
+        <test-method status="PASS" signature="invoke()[pri:0, instance:testngconcepts.TC003_browserOpening@3e3047e6]" name="invoke" duration-ms="14" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:testngconcepts.TC003_browserOpening@3e3047e6]" name="invoke" duration-ms="4" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:testngconcepts.TC003_browserOpening@3e3047e6]" name="invoke" duration-ms="2" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:testngconcepts.TC003_browserOpening@3e3047e6]" name="invoke" duration-ms="2" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:testngconcepts.TC003_browserOpening@3e3047e6]" name="invoke" duration-ms="3" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+      </class> <!-- testngconcepts.TC003_browserOpening -->
+    </test> <!-- TC003_browserOpening -->
+    <test name="TC004_DataProvider" duration-ms="85" started-at="2020-12-17T01:44:47Z" finished-at="2020-12-17T01:44:48Z">
+      <class name="testngconcepts.TC004_DataProvider">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testngconcepts.TC004_DataProvider@60611244]" name="login" duration-ms="2" started-at="2020-12-17T01:44:47Z" data-provider="getdata" finished-at="2020-12-17T01:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testngconcepts.TC004_DataProvider@60611244]" name="login" duration-ms="4" started-at="2020-12-17T01:44:47Z" data-provider="getdata" finished-at="2020-12-17T01:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testngconcepts.TC004_DataProvider@60611244]" name="login" duration-ms="3" started-at="2020-12-17T01:44:47Z" data-provider="getdata" finished-at="2020-12-17T01:44:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testngconcepts.TC004_DataProvider -->
+    </test> <!-- TC004_DataProvider -->
+  </suite> <!-- automationSuite -->
+</testng-results>
